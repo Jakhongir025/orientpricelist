@@ -225,6 +225,13 @@
   height: auto;  /* proporsiyani saqlaydi */
 }
 
+.featured-car-card .card-banner .bmwi5 {
+  margin-top: -35px;
+  margin-left: -35px;
+  width: 120%;  /* yoki 70%, 60% – qanchalik kichik bo‘lishini xohlasangiz */
+  height: auto;  /* proporsiyani saqlaydi */
+}
+
 .featured-car-card .card-banner .tracker2 {
   width: 100%;  /* yoki 70%, 60% – qanchalik kichik bo‘lishini xohlasangiz */
   height: auto;  /* proporsiyani saqlaydi */
