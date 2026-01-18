@@ -1,0 +1,2382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>OrientRentcar</title>
+    <link rel="img" href="./images/logo.png"/>
+    <meta charset="UTF-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <link rel="icon" href="/img/faviconmain.ico" /> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"></link>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"></link>
+    <link rel="shortcut icon" href="./logo.PNG" type="image/svg+xml"></link>
+    <link rel="stylesheet" href="./css/view.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&family=Squada+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+    rel="stylesheet" />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <!--=============== REMIXICONS ===============-->
+    
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Navbar -->
+     <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="#" class="nav__logo">
+                  <i class="logo"><img src="./logo.PNG" alt="">
+                  </i> 
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="#gelik" class="nav__link">Asosiy</a></li>
+
+                  </li>
+
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Tarjima <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="" class="dropdown__link">
+                              <i class="ri-earth-fill"></i> O'zbek
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="" class="dropdown__link">
+                              <i class="ri-earth-fill"></i> Ingiliz
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-earth-fill"></i> Rus
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+
+                  <li><a href="#contactForm" class="nav__link">Aloqa uchun</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+  <!-- Navbar -->
+    <section class="section featured-car" id="featured-car">
+        <div class="container">
+    
+    <ul class="featured-car-list">
+    <!-- Gelik -->
+            <li>
+              <div class="featured-car-card">
+              <div id="gelik"></div>
+                <figure class="card-banner">
+                  <img src="./images/Gelik tg.jpg" alt="W565 G700" loading="lazy" width="440" height="300"
+                    class="w-100 gelik"/>
+                </figure>
+    
+                <div class="card-content">
+    
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="">Gelik Brabus G700</a>
+                    </h3>
+    
+                    <data class="year" value="2021">2019</data>
+                  </div>
+    
+                  <ul class="card-list">
+    
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+    
+                      <span class="card-item-text">5 O'rindiqli</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+    
+                      <span class="card-item-text">Benzin</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+    
+                      <span class="card-item-text">100km / 25-litr</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+    
+                      <span class="card-item-text">Avtomat</span>
+                    </li>
+    
+                  </ul>
+    
+                  <div class="card-price-wrapper">
+    
+                    <p class="card-price">
+                      <strong>10.000.000 uzs</strong> / kunlik
+                    </p>
+                      <p class="card-price">
+                      <strong>25.000.000 uzs</strong> / depozit
+                    </p>
+    
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+    
+                    <button class="btn"><a href="https://t.me/orientrentcar_images/147">Rasmlarini ko'rish</a></button>
+        
+    
+                  </div>
+    
+                </div>
+    
+              </div>
+            </li>
+    <!-- Gelik -->
+
+     <!-- Zeekr 9X -->
+            <li>
+              <div class="featured-car-card">
+              <div id="gelik"></div>
+                <figure class="card-banner">
+                  <img src="./images/zeekr9x.png" alt="W565 G700" loading="lazy" width="440" height="300"
+                    class="w-100 zeekr9x"/>
+                </figure>
+    
+                <div class="card-content">
+    
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="">Zeekr 9X</a>
+                    </h3>
+    
+                    <data class="year" value="2021">2025</data>
+                  </div>
+    
+                  <ul class="card-list">
+    
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+    
+                      <span class="card-item-text">7 O'rindiqli</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+    
+                      <span class="card-item-text">Hybrid</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+    
+                      <span class="card-item-text">100km / 9-litr</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+    
+                      <span class="card-item-text">Avtomat</span>
+                    </li>
+    
+                  </ul>
+    
+                  <div class="card-price-wrapper">
+    
+                    <p class="card-price">
+                      <strong>10.000.000 uzs</strong> / kunlik
+                    </p>
+                      <p class="card-price">
+                      <strong>12.000.000 uzs</strong> / depozit
+                    </p>
+    
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+    
+                    <button class="btn"><a href="">Rasmlarini ko'rish</a></button>
+        
+    
+                  </div>
+    
+                </div>
+    
+              </div>
+            </li>
+    <!-- Zeekr 9x -->
+
+    <!-- BMW X7 -->
+            <li>
+              <div class="featured-car-card">
+    
+                <figure class="card-banner">
+                  <img src="./images/BMwx7.jpg" alt="BMW X7 50i" loading="lazy" width="440" height="300"
+                    class="w-100 bmwx7"></img>
+                </figure>
+    
+                <div class="card-content">
+    
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">BMW X7 50i</a>
+                    </h3>
+    
+                    <data class="year" value="2019">2023</data>
+                  </div>
+    
+                  <ul class="card-list">
+    
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+    
+                      <span class="card-item-text">7 O'rindiqli</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+    
+                      <span class="card-item-text">Benzin</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+    
+                      <span class="card-item-text">100km / 20-litr</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+    
+                      <span class="card-item-text">Avtomat</span>
+                    </li>
+    
+                  </ul>
+    
+                  <div class="card-price-wrapper">
+    
+                    <p class="card-price">
+                      <strong>6.000.000 uzs</strong> / kunlik
+                    </p>
+
+                    <p class="card-price">
+                      <strong>10.000.000 uzs</strong> / depozit
+                    </p>
+    
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+    
+                    <button class="btn"> <a href="https://t.me/orientrentcar_images/216">Rasmlarini ko'rish</a></button>
+    
+                  </div>
+    
+                </div>
+    
+              </div>
+            </li>
+    <!-- BMW X7 -->
+
+    <!-- BMW GLS450 -->
+            <li>
+              <div class="featured-car-card">
+    
+                <figure class="card-banner">
+                  <img src="./images/gls450" alt="BMW X7 50i" loading="lazy" width="440" height="300"
+                    class="w-100 gls450"></img>
+                </figure>
+    
+                <div class="card-content">
+    
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Mercedes-Benz GLS450</a>
+                    </h3>
+    
+                    <data class="year" value="2019">2022</data>
+                  </div>
+    
+                  <ul class="card-list">
+    
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+    
+                      <span class="card-item-text">7 O'rindiqli</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+    
+                      <span class="card-item-text">Benzin</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+    
+                      <span class="card-item-text">100km / 20-litr</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+    
+                      <span class="card-item-text">Avtomat</span>
+                    </li>
+    
+                  </ul>
+    
+                  <div class="card-price-wrapper">
+    
+                    <p class="card-price">
+                      <strong>6.000.000 uzs</strong> / kunlik
+                    </p>
+
+                    <p class="card-price">
+                      <strong>10.000.000 uzs</strong> / depozit
+                    </p>
+    
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+    
+                    <button class="btn"> <a href="https://t.me/orientrentcar_images/220">Rasmlarini ko'rish</a></button>
+    
+                  </div>
+    
+                </div>
+    
+              </div>
+            </li>
+    <!-- GLS 450 -->
+
+    <!-- Tahoe -->
+            <li>
+              <div class="featured-car-card">
+    
+                <figure class="card-banner">
+                  <img src="./images/Tahoe.jpg" alt="Volkswagen T-Cross 2020" loading="lazy" width="440"
+                    height="300" class="w-100 tahoe"></img>
+                </figure>
+    
+                <div class="card-content">
+    
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Chavrolet Tahoe</a>
+                    </h3>
+    
+                    <data class="year" value="2020">2020</data>
+                  </div>
+    
+                  <ul class="card-list">
+    
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+    
+                      <span class="card-item-text">7-o'rindiqli</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+    
+                      <span class="card-item-text">Benzin</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+    
+                      <span class="card-item-text">100km / 25-litr</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+    
+                      <span class="card-item-text">Avtomat</span>
+                    </li>
+    
+                  </ul>
+    
+                  <div class="card-price-wrapper">
+    
+                    <p class="card-price">
+                      <strong>3.0000.000 uzs</strong> / kunlik
+                    </p>
+
+                    <p class="card-price">
+                      <strong>7.000.000 uzs</strong> / depozit
+                    </p>
+    
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+    
+                    <button class="btn"><a href="https://t.me/orientrentcar_images/168"></a>Rasmlarini ko'rish</button>
+    
+                  </div>
+    
+                </div>
+    
+              </div>
+            </li>
+    <!-- Tahoe -->
+
+    <!-- Toyota -->
+            <li>
+              <div class="featured-car-card">
+    
+                <figure class="card-banner">
+                  <img src="./images/Toyota qq.jpg" alt="Cadillac Escalade 2020" loading="lazy" width="440"
+                    height="300" class="w-100 toyota"></img>
+                </figure>
+    
+                <div class="card-content">
+    
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Toyota Land Cruiser 200</a>
+                    </h3>
+    
+                    <data class="year" value="2020">2018</data>
+                  </div>
+    
+                  <ul class="card-list">
+    
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+    
+                      <span class="card-item-text">7 O'rindiqli</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+    
+                      <span class="card-item-text">Benzin</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+    
+                      <span class="card-item-text">100km / 15-litr</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+    
+                      <span class="card-item-text">Avtomat</span>
+                    </li>
+    
+                  </ul>
+    
+                  <div class="card-price-wrapper">
+    
+                    <p class="card-price">
+                      <strong>2.200.000 uzs</strong> / kunlik
+                    </p>
+
+                    <p class="card-price">
+                      <strong>7.000.000 uzs</strong> / depozit
+                    </p>
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+    
+                    <button class="btn"><a href="https://t.me/orientrentcar_images/133">Rasmlarini ko'rish</a></button>
+    
+                  </div>
+    
+                </div>
+    
+              </div>
+            </li>
+    <!-- Toyota -->
+
+    <!-- Li9 -->
+            <li>
+              <div class="featured-car-card">
+    
+                <figure class="card-banner">
+                  <img src="./images/Li9.jpg" alt="Lixiang L9 Max" loading="lazy" width="440"
+                    height="300" class="w-100"></img>
+                </figure>
+    
+                <div class="card-content">
+    
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Lixiang L9 Max</a>
+                    </h3>
+    
+                    <data class="year" value="2021">2024</data>
+                  </div>
+    
+                  <ul class="card-list">
+    
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+    
+                      <span class="card-item-text">7 O'rindiqli</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+    
+                      <span class="card-item-text">Benzin</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+    
+                      <span class="card-item-text">100km / 9-litr</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+    
+                      <span class="card-item-text">Avtomat</span>
+                    </li>
+    
+                  </ul>
+    
+                  <div class="card-price-wrapper">
+    
+                    <p class="card-price">
+                      <strong>2.700.000</strong> / uzs
+                    </p>
+
+                    <p class="card-price">
+                      <strong>7.000.000 uzs</strong> / depozit
+                    </p>
+    
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+    
+                    <button class="btn"><a href="https://t.me/orientrentcar_images/72">Rasmlarini ko'rish</a></button>
+    
+                  </div>
+    
+                </div>
+    
+              </div>
+            </li>
+    <!-- Li9 -->
+
+     <!-- Li7 -->
+            <li>
+              <div class="featured-car-card">
+    
+                <figure class="card-banner">
+                  <img src="./images/li7" alt="Lixiang L9 Max" loading="lazy" width="440"
+                    height="300" class="w-100 li7"></img>
+                </figure>
+    
+                <div class="card-content">
+    
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Lixiang L7</a>
+                    </h3>
+    
+                    <data class="year" value="2021">2024</data>
+                  </div>
+    
+                  <ul class="card-list">
+    
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+    
+                      <span class="card-item-text">5 O'rindiqli</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+    
+                      <span class="card-item-text">Benzin</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+    
+                      <span class="card-item-text">100km / 9-litr</span>
+                    </li>
+    
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+    
+                      <span class="card-item-text">Avtomat</span>
+                    </li>
+    
+                  </ul>
+    
+                  <div class="card-price-wrapper">
+    
+                    <p class="card-price">
+                      <strong>2.000.000</strong> / uzs
+                    </p>
+
+                    <p class="card-price">
+                      <strong>7.000.000 uzs</strong> / depozit
+                    </p>
+    
+                    <button class="btn fav-btn" aria-label="Add to favourite list">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+    
+                    <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/283">Rasmlarini ko'rish</a></button>
+    
+                  </div>
+    
+                </div>
+    
+              </div>
+            </li>
+    <!-- Li7 -->
+
+<!-- Traverse -->
+            <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/traverse.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 traverse"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Chevrolet Traverse</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2023</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">7 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Benzin</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 15-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>2.000.000 uzs</strong> / kunlik
+                      </p>
+
+                    <p class="card-price">
+                      <strong>7.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/124">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- Traverse -->
+
+<!-- Leapmotor c16 -->
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/leapmotorc16.avif" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 c16"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Leapmotor C16</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2024</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">7 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Gibrid</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 8-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>1.400.000 uzs</strong> / kunlik
+                      </p>
+
+                    <p class="card-price">
+                      <strong>5.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'">Bron qilish uchun</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- Leapmotor c16 -->
+
+<!-- Byd Song Plus champion -->
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/byd4.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 chempion"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">BYD Song Plus Champion</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2024</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">5 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Elektr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 0-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>1.200.000 uzs</strong> / kunlik
+                      </p>
+
+                          <p class="card-price">
+                      <strong>5.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/235">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- Byd Song Plus Champion -->
+
+<!-- Equinox -->
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/equinox tg.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 equinox"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Chevrolet Equinox</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2023</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">5 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Benzin</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 12-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>1.200.000 uzs</strong> / kunlik
+                      </p>
+
+                          <p class="card-price">
+                      <strong>3.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/112">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- Equinox -->
+
+<!-- AMG GTS -->
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/gts3.jpg" alt="AMG GTS" loading="lazy" width="440" height="300" class="w-100 gts"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Mercedes-Benz AMG GTS</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">2 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Benzin</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 20-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>12.000.000 uzs</strong> / kunlik
+                      </p>
+
+                          <p class="card-price">
+                      <strong>30.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/232">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- AMG GTS -->
+
+<!-- AMG GT 43 -->
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/gt432.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 gt43"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Mercedes AMG GT43</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2022</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">4 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Benzin</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 13-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>5.000.000 uzs</strong> / kunlik
+                      </p>
+
+                          <p class="card-price">
+                      <strong>10.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/276">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- AMG GT43 -->
+
+<!-- W213 restyle e200 -->
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/w213 res e200.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 w213res200"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#"> W213 Restyle E200</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">5 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Benzin</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 15-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>2.200.000 uzs</strong> / kunlik
+                      </p>
+
+                          <p class="card-price">
+                      <strong>7.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/154">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- W213 Restyle e200 -->
+
+<!-- W213 E200 -->
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/w213 e200.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 w213e200"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Mercedes W213 E200</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">5 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Benzin</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 14-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>1.800.000 uzs</strong> / kunlik
+                      </p>
+
+                          <p class="card-price">
+                      <strong>7.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/151">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- W213 E200 -->
+
+<!-- W205 restyle c300 -->
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/w205.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 w205c300"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">W205 Restyle C300</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">5 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Benzin</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 13-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>1.300.000 uzs</strong> / kunlik
+                      </p>
+
+                          <p class="card-price">
+                      <strong>5.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/161">Rasmlarini ko'rish uchun</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- W205 restyle c300 -->
+
+<!-- W205 restyle c180 -->
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/w205.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 w205c180"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">W205 Restyle C180</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">5 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Benzin</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 13-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>1.300.000 uzs</strong> / kunlik
+                      </p>
+
+                          <p class="card-price">
+                      <strong>5.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/158">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- W205 restyle C180 -->
+
+<!-- Mustang -->
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/mustang.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 mustang"></img>
+
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Mustang Cabriolet</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">4 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Benzin</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 20-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>2.500.000 uzs</strong> / kunlik
+                      </p>
+
+                          <p class="card-price">
+                      <strong>7.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/108">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- Mustang -->
+
+<!-- BMW i4 -->
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/bmwi4q.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 bmwi4"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">BMW i4</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2023</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">5 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Elektr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 0-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>2.000.000 uzs</strong> / kunlik
+                      </p>
+
+                      <p class="card-price">
+                      <strong>7.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/208">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- BMw i4 -->
+
+<!-- BMw i3 -->
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/i3q.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 bmwi3"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">BMW i3</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2023</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">4 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Elektr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 0-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>1.800.000 uzs</strong> / kunlik
+                      </p>
+
+                          <p class="card-price">
+                      <strong>5.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/212">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- BMw i3 -->
+
+<!-- Zeekr 001 Z-sport -->
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/0011.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 zsport"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Zeekr 001 Z-sport</a>
+                      </h3>
+  
+                      <data class="year" value="2024">2024</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">4 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Elektr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 0-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>2.500.000 uzs</strong> / kunlik
+                      </p>
+
+                    <p class="card-price">
+                      <strong>7.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/190">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- Zeekr 001 Z-sport  -->
+
+
+<!-- Tesla Model Y -->
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/tesla2.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 tesla"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Tesla Model Y</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2024</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">4 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Elektr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 0-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>1.500.000 uzs</strong> / kunlik
+                      </p>
+
+                    <p class="card-price">
+                      <strong>5.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/271">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- Tesla Model y -->
+
+<!-- BYd Han -->
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/xan3.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 bydhan"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">BYD HAN</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2024</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">4 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Elektr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 0-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>1.400.000 uzs</strong> / kunlik
+                      </p>
+
+                    <p class="card-price">
+                      <strong>5.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/259">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- BYD HAn -->
+
+<!-- Malibu -->
+              <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/malibu.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 malibu"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Malibu Premier</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2023</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">5 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Benzin</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 15-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>1.200.000 uzs</strong> / kunlik
+                      </p>
+
+                          <p class="card-price">
+                      <strong>3.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/116">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- Malibu -->
+
+
+<!-- Hi Limuzin -->
+            <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/hi limuzin5.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 hilimuzin"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">High Limousine</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2023</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">9 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Benzin</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 18-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>2.500.000 uzs</strong> / kunlik
+                      </p>
+
+                          <p class="card-price">
+                      <strong>7.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/253">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- Hi limuzin -->
+
+<!-- 11 kia -->
+            <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/carnival.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 carnival"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">KIA CARNIVAL</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2023</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">11 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Benzin</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 15-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>1.600.000 uzs</strong> / kunlik
+                      </p>
+
+                          <p class="card-price">
+                      <strong>5.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/103">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- 11 kia -->
+
+<!-- 9-kia -->
+            <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/carnival.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 carnival"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">KIA CARNIVAL</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2023</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">9 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Benzin</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 15-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>1.600.000 uzs</strong> / kunlik
+                      </p>
+
+                          <p class="card-price">
+                      <strong>5.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/94">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- 9-kia -->
+
+
+<!-- Captiva4 -->
+            <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/Captiva7.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 captiva4"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Captiva 4</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2019</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">5 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Benzin</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 15-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>800.000 uzs</strong> / kunlik
+                      </p>
+
+                       <p class="card-price">
+                      <strong>3.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/240">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- Captiva4 -->
+
+<!-- Tracker -->
+            <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/tracker.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 tracker2"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Tracker2</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2023</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">5 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Benzin</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 15-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>700.000 uzs</strong> / kunlik
+                      </p>
+
+                       <p class="card-price">
+                      <strong>3.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/129">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+ <!--Tracker  -->
+
+<!-- Monza -->
+            <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/monza.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 monza"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Chevrolet Monza</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2023</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">5 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Benzin</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 10-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>600.000 uzs</strong> / kunlik
+                      </p>
+
+                       <p class="card-price">
+                      <strong>3.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/142">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- Monza -->
+
+<!-- Gentra -->
+            <li>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="./images/gentra.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                      class="w-100 gentra"></img>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Chevrolet Gentra</a>
+                      </h3>
+  
+                      <data class="year" value="2021">2023</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">5 O'rindiqli</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Benzin</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">100km / 14-litr</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Avtomat</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                      <p class="card-price">
+                        <strong>500.000 uzs</strong> / kunlik
+                      </p>
+
+                       <p class="card-price">
+                      <strong>2.000.000 uzs</strong> / depozit
+                    </p>
+  
+                      <button class="btn fav-btn" aria-label="Add to favourite list">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+  
+                      <button class="btn" onclick="location.href='./form.html'"><a href="https://t.me/orientrentcar_images/54">Rasmlarini ko'rish</a></button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+<!-- Gentra -->
+
+          </ul>
+         
+
+ <form id="contactForm">
+      <input type="text" id="name" name="name" placeholder="Ismingiz" required />
+      <input type="tel" id="phone" name="phone" placeholder="Telefon raqamingiz" required />
+      <textarea id="message" name="message" placeholder="Xabaringiz" rows="4" required></textarea>
+      <button type="submit">Yuborish</button>
+    </form>
+        </div>
+      </section>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./script.js"></script>
+    
+</body>
+</html>
